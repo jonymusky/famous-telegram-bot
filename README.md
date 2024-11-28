@@ -69,3 +69,9 @@ The bot can use local Ollama models. Make sure you have Ollama installed and run
 Supported configuration:
 - `OLLAMA_BASE_URL`: The URL where Ollama is running (default: http://localhost:11434)
 - `OLLAMA_MODEL`: The model to use (default: llama2)
+
+
+### Real Example
+![Screenshot 2024-11-28 at 7 46 15 PM](https://github.com/user-attachments/assets/94b58ba2-ec13-4811-9792-b46aafe1c2d8)
+
+
