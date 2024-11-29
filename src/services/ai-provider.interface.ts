@@ -6,12 +6,16 @@ export interface AIProvider {
 
 
 export interface AIConfig {
-    provider: 'openai' | 'ollama';
+    provider: 'openai' | 'ollama' | 'gemini';
     ollamaConfig?: {
         baseUrl?: string;
         model?: string;
     };
     openAIConfig?: {
         apiKey?: string;
+    };
+    geminiConfig?: {
+        apiKey?: string;
+        model?: string;
     };
 }

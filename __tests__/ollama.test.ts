@@ -1,4 +1,4 @@
-import { OllamaService } from '../services/ollama';
+import { OllamaService } from '../src/services/ollama';
 
 describe('OllamaService', () => {
     let ollamaService: OllamaService;

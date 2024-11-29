@@ -1,6 +1,6 @@
-import { AIFactory } from '../services/ai-factory';
-import { OpenAIService } from '../services/openai';
-import { OllamaService } from '../services/ollama';
+import { AIFactory } from '../src/services/ai-factory';
+import { OpenAIService } from '../src/services/openai';
+import { OllamaService } from '../src/services/ollama';
 
 describe('AIFactory', () => {
     it('should create OpenAI provider when configured for OpenAI', () => {

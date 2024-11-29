@@ -20,17 +20,20 @@
     "ai",
     "typescript",
     "openai",
-    "ollama"
+    "ollama",
+    "gemini"
   ],
   "author": "Jonathan Muszkat <me@jonymusky.com>",
   "license": "ISC",
   "dependencies": {
+    "@google/generative-ai": "^0.2.1",
     "@types/node": "^22.10.1",
     "dotenv": "^16.4.5",
     "grammy": "^1.32.0",
     "openai": "^4.73.1",
     "ts-node": "^10.9.2",
-    "typescript": "^5.7.2"
+    "typescript": "^5.7.2",
+    "winston": "^3.11.0"
   },
   "devDependencies": {
     "@types/dotenv": "^8.2.3",

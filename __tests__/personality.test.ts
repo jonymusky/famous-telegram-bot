@@ -1,4 +1,4 @@
-import { personalities } from '../types/personality';
+import { personalities } from '../src/types/personality';
 
 describe('Personalities', () => {
     it('should have Einstein personality configured correctly', () => {
